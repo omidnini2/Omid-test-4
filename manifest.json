@@ -1,0 +1,123 @@
+{
+    "name": "کلون صدا - Voice Cloning",
+    "short_name": "Voice Clone",
+    "description": "یک وب‌سایت کاملاً رایگان برای کلون کردن صدا با هوش مصنوعی - A completely free voice cloning website using AI",
+    "version": "1.0.0",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#6366f1",
+    "background_color": "#ffffff",
+    "lang": "fa",
+    "dir": "rtl",
+    "scope": "/",
+    "categories": ["productivity", "utilities", "audio"],
+    "screenshots": [
+        {
+            "src": "/assets/images/screenshot-1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Voice cloning interface"
+        },
+        {
+            "src": "/assets/images/screenshot-2.png",
+            "sizes": "750x1334",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Mobile voice cloning"
+        }
+    ],
+    "icons": [
+        {
+            "src": "/assets/images/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/images/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "شروع سریع",
+            "short_name": "Quick Start",
+            "description": "شروع سریع کلون صدا",
+            "url": "/?quick=1",
+            "icons": [
+                {
+                    "src": "/assets/images/shortcut-quick.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "تنظیمات",
+            "short_name": "Settings",
+            "description": "تنظیمات برنامه",
+            "url": "/?settings=1",
+            "icons": [
+                {
+                    "src": "/assets/images/shortcut-settings.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "protocol_handlers": [
+        {
+            "protocol": "web+voiceclone",
+            "url": "/?handler=%s"
+        }
+    ],
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "handle_links": "preferred",
+    "capture_links": "existing-client-navigate"
+}
